@@ -29,7 +29,7 @@ console.log( typeof state )
 // string => ""
 // boolean => true/false
 // null => standalone value but it's datatype returns as object which is non-primitive datatype of js.
-// undefined => it's datatype is undefined.
+// undefined => it's datatype is undefined.kindda place holder for a value which is not defined yet.
 // symbol => unique
 
 //NON-PRIMITIVE DATATYPES:-
