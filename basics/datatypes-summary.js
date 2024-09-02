@@ -1,4 +1,4 @@
-//  Primitive
+//  Primitive (it assigns the copy of the value of a variable to another, so obviously on changing value of another variable first variable dosen't change)
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -18,7 +18,7 @@ console.log(id === anotherId);
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive)(it assigns the reference of actual original value to both variables so on changing one another also changes.)
 
 // Array, Objects, Functions
 
