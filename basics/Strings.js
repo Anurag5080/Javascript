@@ -34,4 +34,4 @@ console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
 
-//read more about all the methods of strings as its important they all are functions as well.
+//read more about all the methods of strings as it is important, they all are functions as well and importabt for further study of js.
