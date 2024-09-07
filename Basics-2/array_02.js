@@ -1,15 +1,15 @@
 const marvel_heros = ["thor", "Ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
 
-// marvel_heros.push(dc_heros) //push command make changes in existing array.
+// marvel_heros.push(dc_heros) //push command make changes in existing array and returns a nested array.
 
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-// const allHeros = marvel_heros.concat(dc_heros) //it gives new array.
+// const allHeros = marvel_heros.concat(dc_heros) //it gives new array and returns a single array.
 // console.log(allHeros);
 
-const all_new_heros = [...marvel_heros, ...dc_heros] //it gives new array.
+const all_new_heros = [...marvel_heros, ...dc_heros] //it gives new array and returns a single array.
 
 // console.log(all_new_heros);
 
@@ -22,7 +22,7 @@ console.log(real_another_array);
 
 console.log(Array.isArray("anurag"))
 console.log(Array.from("anurag"))
-console.log(Array.from({name: "anurag"})) // interesting
+console.log(Array.from({name: "anurag"})) // interesting , as it returns an empty array until you specify that you need array of keys or array of values.
 
 let score1 = 100
 let score2 = 200
