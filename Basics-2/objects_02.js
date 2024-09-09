@@ -73,8 +73,8 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
-// API format is always a JSON file which is basically javascript object notation. As an API we got
-// a return of an object or array of objects which has no name as defined below. 
+/* API format is always a JSON file which is basically javascript object notation. As an API we got
+a return of an object or array of objects which has no name as defined below. */
 
 // {
 //     "name": "anurag",
