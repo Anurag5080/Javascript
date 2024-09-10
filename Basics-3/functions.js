@@ -37,12 +37,15 @@ function loginUserMessage(username = "sam"){   // sam is here a default value el
 // console.log(loginUserMessage("Anurag"))
 // console.log(loginUserMessage("Anurag"))
 
+// Here ... is rest operator it returns all the rest values in an array also ... operator is called spread operator depend on it's use cases it's defined.
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
+
+//------------------------------------------objects with functions-------------------------------------------------------
 
 const user = {
     username: "Anurag",
@@ -58,6 +61,8 @@ handleObject({
     username: "sam",
     price: 399
 })
+
+//-------------------------------------------array with functions--------------------------------------------------------
 
 const myNewArray = [200, 400, 100, 600]
 
