@@ -20,7 +20,7 @@ if (true) {
 //-----------------------------------------------------Scope in Nested functions ( Closure )---------------------------------------------------------
 
 function one(){
-    const username = "hitesh"
+    const username = "Anurag"
 
     function two(){
         const website = "youtube"
@@ -37,8 +37,8 @@ function one(){
 //----------------------------------------------------------Scope in Nested If-else---------------------------------------------------------------
 
 if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
+    const username = "Anurag"
+    if (username === "Anurag") {
         const website = " youtube"
         // console.log(username + website);
     }
