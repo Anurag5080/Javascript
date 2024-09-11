@@ -6,7 +6,7 @@
 (function chai(){
     // named IIFE
     console.log(`DB CONNECTED`);
-})(); // Here semi-colon is mandatory for writing two iife functions.
+})(); // Here semi-colon is mandatory for writing two iife functions because iife function dosen't know where to stop context.
 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
