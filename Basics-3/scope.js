@@ -17,6 +17,7 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
+//-----------------------------------------------------Scope in Nested functions ( Closure )---------------------------------------------------------
 
 function one(){
     const username = "hitesh"
@@ -33,6 +34,8 @@ function one(){
 
 // one()
 
+//----------------------------------------------------------Scope in Nested If-else---------------------------------------------------------------
+
 if (true) {
     const username = "hitesh"
     if (username === "hitesh") {
@@ -45,7 +48,7 @@ if (true) {
 // console.log(username);
 
 
-// ++++++++++++++++++ interesting ++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++ interesting ( called Hoisting ) , Execution context ++++++++++++++++++++++++++++++++++++
 
 
 console.log(addone(5))
@@ -56,7 +59,8 @@ function addone(num){
 
 
 
-addTwo(5)
+
 const addTwo = function(num){
     return num + 2
 }
+addTwo(5)
