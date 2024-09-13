@@ -29,7 +29,7 @@ for (const [key, value] of map) {       // Just remember the syntax you've to us
     // console.log(key, ':-', value);
 }
 
-const myObject = {
+const myObject = {   // For of loop dosen't work on objects.
     game1: 'NFS',
     game2: 'Spiderman'
 }
