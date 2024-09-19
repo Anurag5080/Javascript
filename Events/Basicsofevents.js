@@ -1,1 +1,1 @@
-console.log("Getting started with event");
+console.log("Getting started with event")
