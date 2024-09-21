@@ -1,1 +1,1 @@
-console.log("Let's start with events in javascript")
+console.log("Let's start with events in javascript");
