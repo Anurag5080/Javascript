@@ -2,6 +2,7 @@ const name = "Anurag"
 const repoCount = 50
 
 // console.log(name + repoCount + " Value");//don't use that.
+
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);//always use this syntax instead of + syntax.
 
 const gameName = new String('anurag-as-com')
