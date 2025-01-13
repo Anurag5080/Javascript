@@ -5,6 +5,7 @@ function sayMyName(){
     console.log("P");
     console.log("I");
     console.log("T");
+    
 }
 
 // sayMyName()
