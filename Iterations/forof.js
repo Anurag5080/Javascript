@@ -25,7 +25,7 @@ map.set('IN', "India")
 
 // console.log(map);
 
-for (const [key, value] of map) {       // Just remember the syntax you've to use [ ] for bth key and values.
+for (const [key, value] of map) {       // Just remember the syntax you've to use [ ] for both key and values.
     // console.log(key, ':-', value);
 }
 
