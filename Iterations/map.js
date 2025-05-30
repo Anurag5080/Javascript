@@ -1,4 +1,4 @@
-const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // const newNums = myNumers.map( (num) => { return num + 10})  // It basically performs operations on all elements of the array unlike filter where we only do condition check on all elements of array.
 
