@@ -13,6 +13,7 @@ promiseOne.then(function(){
 
 
 
+
 new Promise(function(resolve, reject){
     setTimeout(function(){
         console.log("Async task 2");
